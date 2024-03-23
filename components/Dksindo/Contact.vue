@@ -10,17 +10,13 @@
 					</p>
 					<div class="bg-white shadow-md rounded-md p-4 mb-4">
 						<ul>
-							<li class="flex items-center space-x-3">
-								<img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
-								<p class="text-gray-800">0823 1779 5068/Jily Tijanlina</p>
-							</li>
-							<li class="flex items-center space-x-3">
-								<img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
-								<p class="text-gray-800">0896 7584 0664/Komarasari</p>
-							</li>
-							<li class="flex items-center space-x-3">
-								<img src="https://via.placeholder.com/40" alt="Avatar" class="w-10 h-10 rounded-full">
-								<p class="text-gray-800">0882 2266 8778/Puji Ermanto</p>
+							<li v-for="team in teams" :key="team.id" class="flex items-center space-x-3 py-4">
+								<button @click="whatsappRedirect(team.phoneNum, team)" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md">
+									<font-awesome-icon icon="fa-brands fa-whatsapp fa-2xl" />
+									Contact via WhatsApp
+								</button>
+
+								<p class="text-gray-800 font-semibold">{{team.phone}} ( {{team.name}} )</p>
 							</li>
 						</ul>
 					</div>
@@ -33,3 +29,26 @@
 		</div>
 	</section>
 </template>
+
+<script>
+	export default {
+		data() {
+			return {
+				teams: [
+					{id: 1, name: "Jily Tijanlina", phone: "0823 1779 5068", phoneNum: "622317795068"},
+					{id: 2, name: "Komarasari Vio", phone: "0896 7584 0664", phoneNum: "629675840664"},
+					{id: 3, name: "Puji Ermanto", phone: "0882 2266 8778", phoneNum: "6288222668778"}
+				]
+			}
+		},
+		methods: {
+			whatsappRedirect(num, data) {
+				const whatsappNumber = num;
+                const whatsappUrl = `https://wa.me/${whatsappNumber}?text=`;
+                const text = `Hello, ${data.name} saya perlu layanan jasa IT Consultant untuk bisnis saya ?? apakah bisa berkonsultasi untuk layanan yang dimiliki dksindo.`;
+                    const encodeText = encodeURIComponent(text);
+                    window.open(`${whatsappUrl}${encodeText}`)
+			}
+		}
+	}
+</script>

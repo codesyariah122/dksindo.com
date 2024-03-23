@@ -27,6 +27,14 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="grid grid-cols-1 place-items-center py-6">
+				<div>
+					<button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full shadow-md flex items-center">
+						View All &nbsp; <font-awesome-icon icon="fa-solid fa-circle-arrow-right fa-2xl" />
+					</button>
+				</div>
+			</div>
 		</div>
 	</section>
 </template>
