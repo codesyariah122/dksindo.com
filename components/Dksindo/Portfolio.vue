@@ -13,17 +13,17 @@
 					</div>
 				</div>
 				<div class="bg-white rounded-lg shadow-md overflow-hidden">
-					<img src="https://via.placeholder.com/500" alt="Portfolio 2" class="w-full h-48 object-cover">
+					<img src="/assets/images/portfolio/ssa-istiqamah.png" alt="Portfolio 2" class="w-full h-48 object-cover">
 					<div class="p-6">
-						<h3 class="text-xl font-semibold mb-2">Project 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis risus eget risus luctus, sed semper dui varius.</p>
+						<h3 class="text-xl font-semibold mb-2">SSA Istiqamah - Travel Umroh</h3>
+						<p>Website company profile yang mendeskripsikan layanan-layanan travel umroh, perjalanan umroh dan juga dokumentasi untuk admin.</p>
 					</div>
 				</div>
 				<div class="bg-white rounded-lg shadow-md overflow-hidden">
-					<img src="https://via.placeholder.com/500" alt="Portfolio 3" class="w-full h-48 object-cover">
+					<img src="/assets/images/portfolio/dntourtravel.png" alt="Portfolio 3" class="w-full h-48 object-cover">
 					<div class="p-6">
-						<h3 class="text-xl font-semibold mb-2">Project 3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis risus eget risus luctus, sed semper dui varius.</p>
+						<h3 class="text-xl font-semibold mb-2">D&N Tour Travel - City Tour & Travel</h3>
+						<p>Tour & Travel website dimana customer bisa langsung melakukan pemesanan online langsung ke admin dari Tour & Travel tersebut.</p>
 					</div>
 				</div>
 			</div>
