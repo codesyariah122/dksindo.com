@@ -44,10 +44,10 @@
 						<a href="#" class="flex flex-col items-center md:flex-row items-start bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 							<img class="rounded-t-lg h-12 md:h-auto md:w-12 md:rounded-none md:rounded-l-lg ml-2 py-2" :src="imgHorizontal" alt="">
 							<div class="flex flex-col justify-between p-4 leading-normal">
-								<h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Jadwalkan Sekarang</h5>
-								<div class="flex flex-wrap justify-start space-x-6">
+								<h5 class="mb-2 lg:text-lg text-md font-bold tracking-tight text-gray-900 dark:text-white">Jadwalkan Sekarang</h5>
+								<div class="flex lg:flex-wrap justify-start space-x-6">
 									<div>
-										<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jadwalkan pemeriksaan rutin anda dengan dokter spesialis gizi klinik untuk memastikan diet anda tetap terjaga dengan baik.</p>
+										<p class="lg:text-md text-sm lg:text-left text-justify mb-3 font-normal text-gray-700 dark:text-gray-400">Jadwalkan pemeriksaan rutin anda dengan dokter spesialis gizi klinik untuk memastikan diet anda tetap terjaga dengan baik.</p>
 									</div>
 									<div>
 										<font-awesome-icon icon="fa-solid fa-chevron-right fa-2xl text-xl" />
