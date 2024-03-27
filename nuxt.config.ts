@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/device',
     ['@nuxtjs/google-fonts', {
         families: {
           Poppins: true,
@@ -30,6 +31,9 @@ export default defineNuxtConfig({
         }
     }]
   ],
+  device: {
+    refreshOnResize: true
+  },
   buildModules: [
     'nuxt-tailwind-heroicons'
   ],

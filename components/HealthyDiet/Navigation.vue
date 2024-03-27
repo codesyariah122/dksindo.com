@@ -27,7 +27,7 @@
 		</div>
 		<!-- Menu Tampilan Seluler -->
 		<div v-show="isMenuOpen" class="md:hidden py-2 px-2">
-			<ul class="flex flex-col space-y-2">
+			<ul class="flex flex-col space-y-2 text-center mt-4">
 				<li><a href="#" class="hover:text-gray-300">Beranda</a></li>
 				<li><a href="#" class="hover:text-gray-300">Kontak</a></li>
 			</ul>

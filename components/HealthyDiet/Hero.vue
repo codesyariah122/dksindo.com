@@ -8,25 +8,26 @@
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -13rem;
+			top: -21rem;
 			z-index: -1;
+			height: auto;
 		}
 	}
 </style>
 <template>
-	<section class="bg-cover bg-center min-h-screen flex items-center">
+	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full">            
 					<div class="flex justify-start px-6 mt-12">
 						<div>
-							<h1 class="text-4xl md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di 
+							<h1 class="text-xl md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
 								<span class="text-rose-500">Healthy Diet</span></h1>
 
-								<p class="text-gray-600 text-lg md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+								<p class="text-gray-600 text-md md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
 						</div>
-						<div class="bg-cover absolute inset-0" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');"></div>
+						<div v-if="$device.isMobile" class="bg-cover absolute inset-0" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');"></div>
 					</div>    
 
 					<div class="col-span-full py-4 px-6 lg:mt-0 mt-12">
