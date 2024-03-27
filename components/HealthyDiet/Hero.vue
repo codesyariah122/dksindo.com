@@ -2,49 +2,63 @@
 	.hero-text {
 		font-family: 'Montserrat';
 	}
+
+	@media (max-width: 768px) {
+		.bg-cover {
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			top: -13rem;
+			z-index: -1;
+		}
+	}
 </style>
 <template>
-	<section class="bg-cover bg-center h-screen flex items-center" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');">
-		<div class="grid grid-cols-1">	
-			<div class="col-span-full">			
-				<div class="flex justify-start px-6 mt-12">
-					<div>
-						<h1 class="text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di 
-							<span class="text-rose-500">Healthy Diet</span></h1>
+	<section class="bg-cover bg-center min-h-screen flex items-center">
+		<div class="container mx-auto">
+			<div class="grid grid-cols-1">    
+				<div class="col-span-full">            
+					<div class="flex justify-start px-6 mt-12">
+						<div>
+							<h1 class="text-4xl md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di 
+								<span class="text-rose-500">Healthy Diet</span></h1>
 
-						<p class="text-gray-600 text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan dokter profesional.</p>
-					</div>
-				</div>
-			</div>	
-			<div class="col-span-full py-4 px-6">
-				<div class="flex justify-start space-x-6">
-					<div v-for="item in items" class="w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-						<div class="flex flex-col items-center pb-10 py-6">
-							<img class="w-24 h-24 mb-3 rounded-full shadow-lg" :src="item.img" :alt="item.title"/>
-							<h5 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{item.title}}</h5>
+								<p class="text-gray-600 text-lg md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+							</div>
+						</div>
+						<div class="bg-cover absolute inset-0" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');"></div>
+					</div>    
+
+					<div class="col-span-full py-4 px-6 lg:mt-0 mt-12">
+						<div class="flex flex-wrap lg:justify-start justify-center lg:space-x-6">
+							<div v-for="item in items" class="w-full md:w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
+								<div class="flex flex-col items-center pb-10 py-6">
+									<img class="w-24 h-24 mb-3 rounded-full shadow-lg" :src="item.img" :alt="item.title"/>
+									<h5 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{item.title}}</h5>
+								</div>
+							</div>
 						</div>
 					</div>
+					<div class="col-span-full py-4 px-6">
+						<a href="#" class="flex flex-col items-center md:flex-row items-start bg-white border border-gray-200 rounded-lg shadow md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+							<img class="rounded-t-lg h-12 md:h-auto md:w-12 md:rounded-none md:rounded-l-lg ml-2 py-2" :src="imgHorizontal" alt="">
+							<div class="flex flex-col justify-between p-4 leading-normal">
+								<h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Jadwalkan Sekarang</h5>
+								<div class="flex flex-wrap justify-start space-x-6">
+									<div>
+										<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jadwalkan pemeriksaan rutin anda dengan dokter spesialis gizi klinik untuk memastikan diet anda tetap terjaga dengan baik.</p>
+									</div>
+									<div>
+										<font-awesome-icon icon="fa-solid fa-chevron-right fa-2xl text-xl" />
+									</div>
+								</div>
+							</div>
+						</a>
+
+					</div>    
 				</div>
 			</div>
-			<div class="col-span-full py-4 px-6">
-				<a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-					<img class="rounded-t-lg h-12 md:h-12 md:w-12 md:rounded-none md:rounded-s-lg ml-2" :src="imgHorizontal" alt="">
-					<div class="flex flex-col justify-between p-4 leading-normal">
-						<h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Jadwalkan Sekarang</h5>
-						<div class="flex justify-start space-x-6">
-							<div>
-								<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jadwalkan pemeriksaan rutin anda dengan dokter spesialis gizi klinik untuk memastikan diet anda tetap terjaga dengan baik.</p>
-							</div>
-							<div>
-								<font-awesome-icon icon="fa-solid fa-chevron-right fa-2xl text-xl" />
-							</div>
-						</div>
-					</div>
-				</a>
-
-			</div>	
-		</div>
-	</section>
+		</section>
 </template>
 
 <script setup>
