@@ -1,11 +1,16 @@
+<style scoped>
+	.brand-nav {
+		font-family: 'poppins';
+	}
+</style>
+
 <template>
-	<nav class="bg-blue-500 text-white p-4 sticky top-0 z-10">
+	<nav class="bg-rose-700 text-white p-4 sticky top-0 z-10 shadow-lg">
 		<div class="container mx-auto flex justify-between items-center">
-			<a href="#" class="text-lg font-semibold"><font-awesome-icon icon="fa-solid fa-stethoscope" /> Healthy Friend</a>
+			<a href="#" class="text-3xl font-semibold brand-nav"><font-awesome-icon icon="fa-solid fa-stethoscope" /> Healthy Diet</a>
 			<!-- Tampilan Desktop -->
 			<ul class="hidden md:flex space-x-4">
 				<li><a href="#" class="hover:text-gray-300">Beranda</a></li>
-				<li><a href="#" class="hover:text-gray-300">Artikel</a></li>
 				<li><a href="#" class="hover:text-gray-300">Kontak</a></li>
 			</ul>
 			<!-- Akhir Tampilan Desktop -->
@@ -24,7 +29,6 @@
 		<div v-show="isMenuOpen" class="md:hidden py-2 px-2">
 			<ul class="flex flex-col space-y-2">
 				<li><a href="#" class="hover:text-gray-300">Beranda</a></li>
-				<li><a href="#" class="hover:text-gray-300">Artikel</a></li>
 				<li><a href="#" class="hover:text-gray-300">Kontak</a></li>
 			</ul>
 		</div>
