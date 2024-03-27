@@ -38,6 +38,7 @@ export default defineNuxtConfig({
     'nuxt-tailwind-heroicons'
   ],
    plugins: [
-    '~/plugins/fontawesome'
+    {src: '~/plugins/fontawesome'},
+    {src: '~/plugins/crisp', mode: 'client', ssr: false}
   ]
 })

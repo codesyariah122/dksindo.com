@@ -15,10 +15,10 @@
 		<!-- Kontak section -->
 		<Kontak />
 
-		<div class="fixed bottom-24 right-4">
+		<!-- <div class="fixed bottom-24 right-4">
 			<ChatButton @toggle-popup="togglePopup" />
 			<ChatPopup :isPopupOpen="isPopupOpen" @close-popup="closePopup"/>
-		</div>
+		</div> -->
 
 		<!-- Footer -->
 		<Footer />
@@ -51,6 +51,9 @@
 			return {
 				isPopupOpen: false
 			}
+		},
+		mounted(){
+			$crisp.push(['do', 'chat:hide']);
 		},
 		methods: {
 			togglePopup() {
