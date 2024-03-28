@@ -4,7 +4,7 @@
 		<Navigation />
 
 		<!-- Hero Section -->
-		<Hero />
+		<Hero @open-chat="openOrder"/>
 
 		<!-- Services Section -->
 		<!-- <Services /> -->
@@ -15,10 +15,10 @@
 		<!-- Kontak section -->
 		<Kontak />
 
-		<!-- <div class="fixed bottom-24 right-4">
+		<div v-if="!hideChat" class="fixed bottom-24 right-4">
 			<ChatButton @toggle-popup="togglePopup" />
 			<ChatPopup :isPopupOpen="isPopupOpen" @close-popup="closePopup"/>
-		</div> -->
+		</div>
 
 		<!-- Footer -->
 		<Footer />
@@ -49,7 +49,8 @@
 		},
 		data() {
 			return {
-				isPopupOpen: false
+				isPopupOpen: false,
+				hideChat: false
 			}
 		},
 		mounted(){
@@ -58,10 +59,20 @@
 		methods: {
 			togglePopup() {
 				this.isPopupOpen = !this.isPopupOpen;
+				this.openOrder();
 			},
 			closePopup() {
 				console.log("clicked")
 				this.isPopupOpen = false;
+			},
+
+			openOrder(){
+				setTimeout(() => {
+					this.hideChat = true;
+				}, 1000)
+				$crisp.push(['do', 'chat:show']);
+				$crisp.push(['do', 'chat:open']);
+				console.log("aktif now")
 			}
 		}
 	}

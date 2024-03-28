@@ -31,14 +31,14 @@ export default defineNuxtConfig({
         }
     }]
   ],
-  device: {
-    refreshOnResize: true
-  },
+  // device: {
+  //   refreshOnResize: true
+  // },
   buildModules: [
     'nuxt-tailwind-heroicons'
   ],
    plugins: [
-    {src: '~/plugins/fontawesome'},
+    '~/plugins/fontawesome',
     {src: '~/plugins/crisp', mode: 'client', ssr: false}
   ]
 })
