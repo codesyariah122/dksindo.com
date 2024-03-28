@@ -4,6 +4,16 @@ export default defineNuxtConfig({
   server: {
     port: 9019
   },
+  body: true,
+  components: true,
+  head: {
+    link: [
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' }
+    ],
+    script: [
+      { src: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', body: true, defer: true }
+    ]
+  },
   css: [
     "@/assets/css/main.css",
     '@fortawesome/fontawesome-svg-core/styles.css'
@@ -11,7 +21,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/device',
-    'nuxt-swiper',
     ['@nuxtjs/google-fonts', {
         families: {
           Poppins: true,
