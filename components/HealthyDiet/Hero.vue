@@ -17,7 +17,7 @@
 	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
-				<div class="col-span-full lg:bg-white bg-gray-50 lg:-mt-0 -mt-10">            
+				<div class="col-span-full lg:bg-white bg-slate-50 lg:-mt-0 -mt-10">            
 					<div class="flex justify-start px-6 mt-12">
 						<div>
 							<h1 class="text-md md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
