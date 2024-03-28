@@ -8,7 +8,7 @@
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -14.5rem;
+			top: -14.7rem;
 			z-index: -1;
 		}
 	}
@@ -19,7 +19,7 @@
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full lg:bg-white bg-slate-50 lg:-mt-0 -mt-10">            
 					<div class="flex justify-start px-6 mt-12">
-						<div>
+						<div class="py-2">
 							<h1 class="text-md md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
 								<span class="text-rose-500">Healthy Diet</span></h1>
 
