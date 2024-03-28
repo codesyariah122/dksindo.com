@@ -1,4 +1,4 @@
-<style scoped>
+<style>
 	.hero-text {
 		font-family: 'Montserrat';
 	}
@@ -8,9 +8,8 @@
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -21rem;
+			top: -12rem;
 			z-index: -1;
-			height: auto;
 		}
 	}
 </style>
@@ -18,19 +17,19 @@
 	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
-				<div class="col-span-full">            
+				<div class="col-span-full lg:bg-white bg-gray-50 lg:-mt-0 -mt-10">            
 					<div class="flex justify-start px-6 mt-12">
 						<div>
-							<h1 class="text-xl md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
+							<h1 class="text-md md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
 								<span class="text-rose-500">Healthy Diet</span></h1>
 
-								<p class="text-gray-600 text-md md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+								<p class="text-gray-600 text-sm md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
 						</div>
 						<div v-if="$device.isMobile" class="bg-cover absolute inset-0" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');"></div>
 					</div>    
 
-					<div class="col-span-full py-4 px-6 lg:mt-0 mt-12">
+					<div class="col-span-full py-4 px-6 lg:mt-0 mt-20">
 						<div class="flex flex-wrap lg:justify-start justify-center lg:space-x-6">
 							<div v-for="item in items" class="w-full md:w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
 								<div class="flex flex-col items-center pb-10 py-6">

@@ -41,9 +41,9 @@ export default defineNuxtConfig({
         }
     }]
   ],
-  // device: {
-  //   refreshOnResize: true
-  // },
+  device: {
+    refreshOnResize: true
+  },
   buildModules: [
     'nuxt-tailwind-heroicons'
   ],
