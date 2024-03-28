@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/device',
+    'nuxt-swiper',
     ['@nuxtjs/google-fonts', {
         families: {
           Poppins: true,
