@@ -17,11 +17,11 @@
 	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
-				<div class="col-span-full lg:bg-white bg-slate-50 lg:-mt-0 -mt-10">            
+				<div class="col-span-full lg:bg-transparent bg-slate-50 lg:-mt-0 -mt-10">            
 					<div class="flex justify-start px-6 mt-12">
 						<div class="py-2">
 							<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
-								<span class="text-rose-500 text-xl">Healthy Diet</span></h1>
+								<span class="text-rose-500 text-xl lg:text-5xl">Healthy Diet</span></h1>
 
 								<p class="text-gray-600 text-md md:text-xl mb-8">Temukan informasi <span class="text-rose-500">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
