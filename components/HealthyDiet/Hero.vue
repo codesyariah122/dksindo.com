@@ -8,8 +8,8 @@
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -13rem;
-			z-index: -1;
+			top: -14.5rem;
+/*			z-index: -1;*/
 		}
 	}
 </style>
