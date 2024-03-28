@@ -4,7 +4,7 @@
 			<div class="bg-white shadow-sm rounded px-8 pt-6 pb-8 mb-4">
 				<h2 class="text-xl font-bold mb-4">Kontak Kami</h2>
 				<div class="mb-4">
-					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> XGCV+QCC, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
+					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> RSUD Oto Iskandar Dinata, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
 					<p class="text-gray-700 mb-2"><span class="font-semibold">Telepon:</span> (0123) 456-789</p>
 				</div>
 				<div class="mb-4">
