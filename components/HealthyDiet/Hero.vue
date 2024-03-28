@@ -8,7 +8,7 @@
 			background-size: contain;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -14.5rem;
+			top: -14rem;
 /*			z-index: -1;*/
 		}
 	}
