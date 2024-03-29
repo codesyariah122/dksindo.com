@@ -1,17 +1,24 @@
 <template>
 	<div class="flex justify-center py-12 mb-12">
-		<div class="py-4 px-6">
+		<div class="max-w-lg py-4 px-6">
 			<div class="flex flex-col items-center md:flex-row items-start bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-				<img class="rounded-t-lg h-60 ml-2 py-2" src="@/assets/images/healthy-diet/profile/profile2.jpeg" alt="">
+				<!-- Gambar -->
+				<img class="rounded-t-lg h-80 md:h-auto w-full md:w-80 ml-2 py-2" :src="imgHorizontal" alt="">
+
+				<!-- Isi -->
 				<div class="flex flex-col justify-between p-4 leading-normal">
+
+					<!-- Judul -->
 					<h5 class="lg:text-lg text-md font-bold tracking-tight text-gray-900 dark:text-white">Bersama Dokter Professional</h5>
 					<small class="text-slate-400 mb-2">konsultasikan permasalahan <span class="text-emerald-500">Diet</span> Anda</small>
 					<h2 class="font-semibold lg:text-2xl text-lg">dr. Ade Erni, M.Gizi, SpGK</h2>
-					<div class="flex justify-between space-x-6">
-						<div class="shrink-0 w-80 text-justify">
+
+					<!-- Deskripsi -->
+					<div class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-6">
+						<div class="w-full md:w-1/2">
 							<p class="lg:text-md text-sm lg:text-left text-justify font-normal text-gray-700 dark:text-gray-400 py-4">Dalam pengawasan dan bimbingan langsung <span class="font-semibold">dr. Ade Erni, M.Gizi, SpGK</span> yang berpengalaman di bidang gizi, saat ini Berpraktek langsung di Poli / Klinik Gizi RSUD Oto Iskandar Dinata.</p>
 						</div>
-						<div class="py-12">
+						<div class="w-full md:w-auto">
 							<button @click="whatsappRedirect" type="button" class="text-white bg-gradient-to-br from-emerald-500 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
 								<font-awesome-icon icon="fa-brands fa-whatsapp fa-2xl" />  Konsultasikan Sekarang
 							</button>
@@ -22,7 +29,6 @@
 		</div>
 	</div>
 </template>
-
 
 <script setup>
 	const imgHorizontal = '@/assets/images/healthy-diet/profile/profile2.jpeg'
