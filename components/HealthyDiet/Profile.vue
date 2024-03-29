@@ -12,7 +12,7 @@
 							<p class="lg:text-md text-sm lg:text-left text-justify font-normal text-gray-700 dark:text-gray-400 py-4">Dalam pengawasan dan bimbingan langsung <span class="font-semibold">dr. Ade Erni, M.Gizi, SpGK</span> yang berpengalaman di bidang gizi, saat ini Berpraktek langsung di Poli / Klinik Gizi RSUD Oto Iskandar Dinata.</p>
 						</div>
 						<div class="py-12">
-							<button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
+							<button type="button" class="text-white bg-gradient-to-br from-emerald-500 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2">
 								<font-awesome-icon icon="fa-brands fa-whatsapp fa-2xl" />  Konsultasikan Sekarang
 							</button>
 						</div>
