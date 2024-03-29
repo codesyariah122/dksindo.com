@@ -20,7 +20,9 @@
 						<div class="py-2">
 							<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
 								<span class="text-green-400 text-xl lg:text-5xl">Healthy Diet</span></h1>
-
+								<pre>
+									Desktop bukan : {{$device.isDesktop ? 'ya' : 'bukan'}}
+								</pre>
 								<p class="text-gray-600 text-sm md:text-xl mb-8">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
 						</div>
