@@ -24,7 +24,7 @@
 						<!-- <div v-if="$device.isMobile" class="bg-cover bg-center absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div> -->
 					</div>    
 
-					<div class="col-span-full py-4 px-6 lg:mt-0 mt-16">
+					<div class="col-span-full py-4 px-6 lg:mt-0 mt-10">
 						<div class="flex flex-wrap lg:justify-start justify-center lg:space-x-6">
 							<div v-for="item in items" class="w-full md:w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
 								<div class="flex flex-col items-center pb-10 py-6">
