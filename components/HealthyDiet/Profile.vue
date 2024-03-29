@@ -3,7 +3,7 @@
 		<div class="max-w-lg py-4 px-6">
 			<div class="flex flex-col items-center md:flex-row items-start bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
 				<!-- Gambar -->
-				<img class="rounded-t-lg h-80 md:h-auto w-full md:w-80 ml-2 py-2" src="@/assets/images/healthy-diet/profile/profile2.jpeg" alt="">
+				<img class="rounded-t-lg h-auto md:h-auto w-full md:w-80 ml-2 py-2" src="@/assets/images/healthy-diet/profile/profile2.jpeg" alt="">
 
 				<!-- Isi -->
 				<div class="flex flex-col justify-between p-4 leading-normal">
