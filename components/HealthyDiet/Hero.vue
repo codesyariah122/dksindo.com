@@ -26,7 +26,7 @@
 								<p class="text-gray-600 text-md md:text-xl mb-8">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
 						</div>
-						<div v-if="$device.isMobile" class="bg-cover absolute inset-0" style="background-image: url('https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg');"></div>
+						<div v-if="$device.isMobile" class="bg-cover absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div>
 					</div>    
 
 					<div class="col-span-full py-4 px-6 lg:mt-0 mt-16">
