@@ -6,6 +6,7 @@
 				<div class="mb-4">
 					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> Poli / Klinik Gizi RSUD Oto Iskandar Dinata, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
 					<p class="text-gray-700 mb-2"><span class="font-semibold">Telepon:</span> +62 8211 7086 745</p>
+					<p class="text-gray-700 mb-2 font-bold">Email : <a href="mailto:adeernitanjung@gmail.com">adeernitanjung@gmail.com</a> </p>
 				</div>
 				<div class="mb-4">
 					<!-- Replace the src attribute with your Google Maps embed URL -->

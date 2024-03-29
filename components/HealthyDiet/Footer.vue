@@ -28,12 +28,6 @@ const socialLinks = [
 
   },
   {
-    name: 'Youtube',
-    url: 'https://www.youtube.com',
-    icon: 'youtube',
-    img: 'https://asset-cdn.medkomtek.com/banner/icon-desktop/social-media/youtube.svg?w=32&q=100'
-  },
-  {
     name: 'instagram',
     url: 'https://instagram.com',
     icon: 'instagram',
