@@ -14,7 +14,7 @@
 	}
 </style>
 <template>
-	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://www.halodoc.com/assets/img/home-v2/webp/home-banner-v3.svg);' : ''}`">
+	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(http://localhost:3000/images/home-banner-v3.png);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full lg:bg-transparent bg-slate-50 lg:-mt-0 -mt-10">            

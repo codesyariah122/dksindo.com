@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   server: {
     port: 9019
   },
+  alias: {
+    // "@": resolve(__dirname, "/")
+    assets: "/<rootDir>/assets"
+  },
   body: true,
   components: true,
   head: {
