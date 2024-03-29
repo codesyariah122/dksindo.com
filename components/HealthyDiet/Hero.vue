@@ -5,28 +5,26 @@
 
 	@media (max-width: 768px) {
 		.bg-cover {
-			background-size: contain;
+			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
-			top: -14rem;
-/*			z-index: -1;*/
 		}
 	}
 </style>
 <template>
-	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://dksindo.com/images/home-banner-v3.svg);' : ''}`">
+	<section class="bg-cover bg-center min-h-screen flex items-center" style="background-image: url(https://dksindo.com/images/home-banner-v3.svg)">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full lg:bg-transparent bg-slate-50 lg:-mt-0 -mt-10">            
 					<div class="flex justify-start px-6 mt-12">
-						<div class="py-2">
+						<div>
 							<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800">Selamat Datang di
 								<span class="text-green-400 text-xl lg:text-5xl">Healthy Diet</span></h1>
 
 								<p class="text-gray-600 text-md md:text-xl mb-8">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 							</div>
 						</div>
-						<div v-if="$device.isMobile" class="bg-cover bg-center min-h-screen absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div>
+						<!-- <div v-if="$device.isMobile" class="bg-cover bg-center absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div> -->
 					</div>    
 
 					<div class="col-span-full py-4 px-6 lg:mt-0 mt-16">
