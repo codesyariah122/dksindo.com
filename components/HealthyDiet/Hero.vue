@@ -12,7 +12,7 @@
 	}
 </style>
 <template>
-	<section class="lg:bg-cover lg:bg-center lg:min-h-screen flex items-center" style="background-image: url(https://dksindo.com/images/home-banner-v3.svg)">
+	<section class="lg:bg-cover lg:bg-center lg:min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://dksindo.com/images/home-banner-v3.svg)' : 'background-image: url(https://dksindo.com/images/home-banner-mobile.svg)'}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full lg:bg-transparent bg-slate-50">            
