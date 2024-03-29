@@ -2,17 +2,9 @@
 	.hero-text {
 		font-family: 'Montserrat';
 	}
-
-	@media (max-width: 768px) {
-		.bg-cover {
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-		}
-	}
 </style>
 <template>
-	<section class="lg:bg-cover lg:bg-center lg:min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://dksindo.com/images/home-banner-v3.svg)' : 'background-image: url(https://dksindo.com/images/home-banner-mobile.svg);background-repeat: no-repeat;background-size: 600px 320px; background-position: right-center;'}`">
+	<section class="lg:bg-cover lg:bg-center lg:min-h-screen flex items-center" :style="`${$device.isMobile ? 'background-image: url(https://dksindo.com/images/home-banner-mobile.svg);background-repeat: no-repeat;background-size: 600px 320px; background-position: right-center;' : 'background-image: url(https://dksindo.com/images/home-banner-v3.svg);background-size: cover;background-position: center;background-repeat: no-repeat;'}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full bg-transparent">            
@@ -24,11 +16,11 @@
 							</div>
 
 							<div v-else class="py-2">
-							<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800 font-bold">Selamat Datang di
-								<span class="text-green-400 text-xl lg:text-5xl">Healthy Diet</span></h1>
-								<p class="text-gray-500 text-sm md:text-xl mb-8 font-normal">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+								<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800 font-bold">Selamat Datang di
+									<span class="text-green-400 text-xl lg:text-5xl">Healthy Diet</span></h1>
+									<p class="text-gray-500 text-sm md:text-xl mb-8 font-normal">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+								</div>
 							</div>
-						</div>
 						<!-- <div v-if="$device.isMobile" class="bg-cover bg-center absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div> -->
 					</div>    
 
