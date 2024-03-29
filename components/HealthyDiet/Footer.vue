@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-indigo-900">
+	<footer class="bg-green-400">
 		<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 			<div class="sm:flex sm:items-center sm:justify-between">
 				<span class="text-sm text-white sm:text-center dark:text-gray-400">© {{year}} <a href="https://dksindo.com/examples/healthy-diet" class="hover:underline"><font-awesome-icon icon="fa-solid fa-stethoscope" /> Healthy Diet</a>. All Rights Reserved.
