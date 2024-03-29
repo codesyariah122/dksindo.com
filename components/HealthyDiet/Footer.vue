@@ -2,7 +2,7 @@
 	<footer class="bg-emerald-500">
 		<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 			<div class="sm:flex sm:items-center sm:justify-between">
-				<span class="text-sm text-white sm:text-center dark:text-gray-400">© {{year}} <a href="https://dksindo.com/examples/healthy-diet" class="hover:underline"><font-awesome-icon icon="fa-solid fa-stethoscope" /> Healthy Diet</a>. All Rights Reserved.
+				<span class="text-sm text-white sm:text-center dark:text-gray-400">© {{year}} <a href="https://dksindo.com/examples/healthy-diet" class="hover:underline"><font-awesome-icon icon="fa-solid fa-notes-medical" />  Healthy Diet</a>. All Rights Reserved.
 				</span>
 				<div class="flex mt-4 sm:justify-center sm:mt-0 space-x-4">
 					<a v-for="link in socialLinks" :key="link.name" :href="link.url" target="blank" class="text-white text-3xl">
