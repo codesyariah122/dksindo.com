@@ -6,8 +6,8 @@
 		<!-- Hero Section -->
 		<Hero @open-chat="openOrder"/>
 
-		<!-- Slider -->
-		<!-- <Slider /> -->
+		<!-- Profile -->
+		<Profile />
 		<!-- Services Section -->
 		<!-- <Services /> -->
 
@@ -32,6 +32,7 @@
 	import Navigation from '~/components/HealthyDiet/Navigation';
 	import Hero from '~/components/HealthyDiet/Hero';
 	import Slider from '~/components/HealthyDiet/Slider';
+	import Profile from '~/components/HealthyDiet/Profile';
 	import ChatButton from '~/components/HealthyDiet/ChatButton';
 	import ChatPopup from '~/components/HealthyDiet/ChatPopup';
 	import Services from '~/components/HealthyDiet/Services';
@@ -44,6 +45,7 @@
 			Navigation,
 			Hero,
 			Slider,
+			Profile,
 			ChatButton,
 			ChatPopup,
 			Services,

@@ -1,11 +1,11 @@
 <template>
-	<section id="kontak" class="py-6 mb-8">
+	<section id="kontak" class="py-6 -mb-10">
 		<div class="max-w-full mx-auto">
-			<div class="bg-white shadow-sm rounded px-8 pt-6 pb-8 mb-4">
+			<div class="bg-slate-100 shadow-sm rounded px-8 pt-6 pb-8 mb-4">
 				<h2 class="text-xl font-bold mb-4">Kontak Kami</h2>
 				<div class="mb-4">
 					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> Poli / Klinik Gizi RSUD Oto Iskandar Dinata, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
-					<p class="text-gray-700 mb-2"><span class="font-semibold">Telepon:</span> (0123) 456-789</p>
+					<p class="text-gray-700 mb-2"><span class="font-semibold">Telepon:</span> +62 8211 7086 745</p>
 				</div>
 				<div class="mb-4">
 					<!-- Replace the src attribute with your Google Maps embed URL -->

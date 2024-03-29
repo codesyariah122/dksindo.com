@@ -14,7 +14,7 @@
 	}
 </style>
 <template>
-	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://dksindo.com/images/home-banner-v3.png);' : ''}`">
+	<section class="bg-cover bg-center min-h-screen flex items-center" :style="`${$device.isDesktop ? 'background-image: url(https://dksindo.com/images/home-banner-v3.svg);' : ''}`">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full lg:bg-transparent bg-slate-50 lg:-mt-0 -mt-10">            
@@ -54,7 +54,6 @@
 								</div>
 							</div>
 						</a>
-
 					</div>    
 				</div>
 			</div>

@@ -5,9 +5,9 @@
 </style>
 
 <template>
-	<nav class="bg-green-400 text-white p-4 sticky top-0 z-10 shadow-lg">
+	<nav class="bg-emerald-500 text-white p-4 sticky top-0 z-10 shadow-lg">
 		<div class="container mx-auto flex justify-between items-center">
-			<a href="#" class="text-3xl font-semibold brand-nav"><font-awesome-icon icon="fa-solid fa-stethoscope" /> Healthy Diet</a>
+			<a href="#" class="text-3xl font-semibold brand-nav"><font-awesome-icon icon="fa-solid fa-notes-medical" /> Healthy Diet</a>
 			<!-- Tampilan Desktop -->
 			<ul class="hidden md:flex space-x-4">
 				<li><a href="#" class="hover:text-gray-300">Beranda</a></li>
