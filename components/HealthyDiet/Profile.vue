@@ -6,7 +6,7 @@
 				<div class="flex flex-col justify-between p-4 leading-normal">
 					<h5 class="lg:text-lg text-md font-bold tracking-tight text-gray-900 dark:text-white">Bersama Dokter Professional</h5>
 					<small class="text-slate-400 mb-2">konsultasikan permasalahan <span class="text-emerald-500">Diet</span> Anda</small>
-					<h2 class="font-semibold lg:text-2xl text-lg">dr. Ade Erni, M.Gizi, SpGK</h2>
+					<h2 class="font-semibold lg:text-2xl text-lg">dr. Ade Erni, M.Gizi, SpGK, AIFO-K</h2>
 					<div class="flex justify-between space-x-6">
 						<div class="shrink-0 w-80 text-justify">
 							<p class="lg:text-md text-sm lg:text-left text-justify font-normal text-gray-700 dark:text-gray-400 py-4">Dalam pengawasan dan bimbingan langsung <span class="font-semibold">dr. Ade Erni, M.Gizi, SpGK, AIFO-K</span> yang berpengalaman ebagai specialist gizi, saat ini Berpraktek langsung di Poli / Klinik Gizi RSUD Oto Iskandar di nata.</p>
