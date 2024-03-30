@@ -4,7 +4,9 @@
 		<Navigation />
 
 		<!-- Hero Section -->
-		<Hero @open-chat="openOrder"/>
+		<Hero v-if="$device.isDesktop" @open-chat="openOrder"/>
+
+		<HeroMobile v-if="$device.isMobile" @open-chat="openOrder" />
 
 		<!-- Profile -->
 		<Profile />
@@ -31,6 +33,7 @@
 <script>
 	import Navigation from '~/components/HealthyDiet/Navigation';
 	import Hero from '~/components/HealthyDiet/Hero';
+	import HeroMobile from '~/components/HealthyDiet/HeroMobile';
 	import Slider from '~/components/HealthyDiet/Slider';
 	import Profile from '~/components/HealthyDiet/Profile';
 	import ChatButton from '~/components/HealthyDiet/ChatButton';
@@ -44,6 +47,7 @@
 		components: {
 			Navigation,
 			Hero,
+			HeroMobile,
 			Slider,
 			Profile,
 			ChatButton,
