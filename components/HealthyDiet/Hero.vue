@@ -2,9 +2,16 @@
 	.hero-text {
 		font-family: 'Montserrat';
 	}
+
+	.hero-bg {
+		background-image: url('https://dksindo.com/images/home-banner-mobile.svg');
+		background-size: 600px 320px;
+		background-position: right-center;
+		background-repeat: no-repeat;
+	}
 </style>
 <template>
-	<section class="lg:bg-cover lg:bg-center lg:min-h-screen flex items-center" :style="`${$device.isMobile ? 'background-image: url(https://dksindo.com/images/home-banner-mobile.svg);background-repeat: no-repeat;background-size: 600px 320px; background-position: right-center;' : 'background-image: url(https://dksindo.com/images/home-banner-v3.svg);background-size: cover;background-position: center;background-repeat: no-repeat;'}`">
+	<section class="hero-bg lg:min-h-screen flex items-center">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full bg-transparent">            
@@ -21,10 +28,9 @@
 									<p class="text-gray-500 text-sm md:text-xl mb-8 font-normal">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 								</div>
 							</div>
-						<!-- <div v-if="$device.isMobile" class="bg-cover bg-center absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-v3.svg');"></div> -->
 					</div>    
 
-					<div class="col-span-full py-4 px-6 lg:mt-0 mt-10">
+					<div class="col-span-full py-4 px-6 lg:mt-0 lg:mt-16 mt-10">
 						<div class="flex flex-wrap lg:justify-start justify-center lg:space-x-6">
 							<div v-for="item in items" class="w-full md:w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
 								<div class="flex flex-col items-center pb-10 py-6">
@@ -54,7 +60,6 @@
 			</div>
 		</section>
 </template>
-
 <script setup>
 	import { defineEmits } from 'vue'
 
