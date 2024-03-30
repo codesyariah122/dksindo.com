@@ -19,7 +19,7 @@
 						</div>   
 					</div> 
 
-					<div class="col-span-full py-4 px-6 lg:mt-0 lg:mt-16 mt-10">
+					<div class="col-span-full py-4 px-6 lg:mt-0 lg:mt-16 mt-6">
 						<div class="flex flex-wrap lg:justify-start justify-center lg:space-x-6">
 							<div v-for="item in items" class="w-full md:w-6/12 max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4 md:mb-0">
 								<div class="flex flex-col items-center pb-10 py-6">
