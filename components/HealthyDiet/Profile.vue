@@ -32,7 +32,7 @@
 					<!-- Judul -->
 					<h5 class="lg:text-lg text-md font-bold tracking-tight text-gray-900 dark:text-white">Bersama Dokter Professional</h5>
 					<small class="text-slate-400 mb-2">konsultasikan permasalahan <span class="text-emerald-500">Diet</span> Anda</small>
-					<h2 class="font-semibold lg:text-2xl text-lg">dr. Ade Erni, M.Gizi, SpGK</h2>
+					<h2 class="font-semibold lg:text-2xl text-lg">dr. Ade Erni, M.Gizi, SpGK, AIFO-K</h2>
 
 					<!-- Deskripsi -->
 					<div class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-6">
