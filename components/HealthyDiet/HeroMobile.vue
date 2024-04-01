@@ -12,7 +12,7 @@
 						<div class="py-2 w-48">
 							<h1 class="text-lg md:text-5xl hero-text font-bold mb-4 text-blueGray-800 font-bold">Selamat Datang di
 							<span class="text-green-400 text-xl lg:text-5xl">Healthy Diet</span></h1>
-							<p class="text-gray-500 text-sm md:text-xl mb-8 font-normal w-36">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
+							<p class="text-gray-600 text-sm md:text-xl mb-8 font-normal w-36">Temukan informasi <span class="text-green-400">healthy diet</span> dan konsultasikan masalah diet anda dengan Dokter profesional.</p>
 						</div>
 
 							<!-- <div v-if="$device.isMobile" class="bg-cover bg-center absolute inset-0" style="background-image: url('https://dksindo.com/images/home-banner-mobile.svg');"></div> -->
