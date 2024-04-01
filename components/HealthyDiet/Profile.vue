@@ -71,9 +71,12 @@
 						</div>
 					</div>
 
-					<div class="flex justify-start space-x-2 mb-6 text-gray-600">
+					<div class="grid grid-cols-1 mb-6 text-gray-600">
+						<div class="font-semibold">
+							<font-awesome-icon icon="fa-solid fa-business-time" /> Jam Praktek :
+						</div>
 						<div>
-							<font-awesome-icon icon="fa-solid fa-business-time" /> Jam Praktek : Senin - Jumat , Jam : 19:00 s/d 21:00
+							Senin - Jumat , Jam : 19:00 s/d 21:00
 						</div>
 					</div>
 
