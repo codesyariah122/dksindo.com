@@ -71,7 +71,7 @@
 						</div>
 					</div>
 
-					<div class="grid grid-cols-1 mb-6 text-gray-600">
+					<div class="grid grid-cols-1 mt-6 mb-6 text-gray-600">
 						<div class="font-semibold">
 							<font-awesome-icon icon="fa-solid fa-business-time" /> Jam Praktek :
 						</div>
