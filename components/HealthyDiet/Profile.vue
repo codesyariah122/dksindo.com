@@ -73,10 +73,7 @@
 
 					<div class="flex justify-start space-x-2 mb-6 text-gray-600">
 						<div>
-							<font-awesome-icon icon="fa-solid fa-business-time" /> Jam Praktek
-						</div>
-						<div>
-							Senin - Jumat , Jam : 19:00 s/d 21:00
+							<font-awesome-icon icon="fa-solid fa-business-time" /> Jam Praktek : Senin - Jumat , Jam : 19:00 s/d 21:00
 						</div>
 					</div>
 
@@ -91,7 +88,7 @@
 
 					<div class="flex justify-start py-2">
 						<div>
-							<h5 class="font-semibold text-gray-700">Mulai Dari</h5>
+							<h5 class="font-semibold text-gray-600">Mulai Dari</h5>
 							<h4 class="font-semibold text-orange-500">Rp. 1000.00</h4>
 						</div>
 					</div>
