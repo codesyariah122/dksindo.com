@@ -8,11 +8,13 @@ export default defineNuxtConfig({
     // "@": resolve(__dirname, "/")
     assets: "/<rootDir>/assets"
   },
+  ssr: false,
   body: true,
   components: true,
+  devtools: { enabled: true },
   head: {
     link: [
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' }
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' },
     ],
     script: [
       { src: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', body: true, defer: true }
@@ -25,6 +27,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/device',
+    'vue3-carousel-nuxt',
     ['@nuxtjs/google-fonts', {
         families: {
           Poppins: true,
@@ -45,6 +48,10 @@ export default defineNuxtConfig({
         }
     }]
   ],
+  carousel: {
+    prefix: 'C'
+  },
+
   device: {
     refreshOnResize: true
   },
