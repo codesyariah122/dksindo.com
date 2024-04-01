@@ -3,10 +3,10 @@
 		<div class="max-w-full mx-auto">
 			<div class="bg-slate-100 shadow-sm rounded px-8 pt-6 pb-8 mb-4">
 				<h2 class="text-xl font-bold mb-4">Kontak Kami</h2>
-				<div class="mb-4">
-					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> Poli / Klinik Gizi RSUD Oto Iskandar Di Nata, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
+				<div class="mb-8">
+					<p class="text-gray-700 mb-2"><span class="font-semibold">Alamat:</span> <strong>Poli / Klinik Gizi</strong> RSUD Oto Iskandar Di Nata, Cingcin, Kec. Soreang, Kabupaten Bandung, Jawa Barat 40921</p>
 					<p class="text-gray-700 mb-2"><span class="font-semibold">Telepon:</span> +62 8211 7086 745</p>
-					<p class="text-gray-700 mb-2 font-bold">Email : <a href="mailto:adeernitanjung@gmail.com">adeernitanjung@gmail.com</a> </p>
+					<p class="text-gray-700 mb-2"><span class="font-semibold">Email :</span> <a href="mailto:adeernitanjung@gmail.com">adeernitanjung@gmail.com</a> </p>
 				</div>
 				<div class="mb-4">
 					<!-- Replace the src attribute with your Google Maps embed URL -->
