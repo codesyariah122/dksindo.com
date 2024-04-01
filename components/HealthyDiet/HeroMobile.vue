@@ -4,7 +4,7 @@
 	}
 </style>
 <template>
-	<section class="flex items-center" style="background-image: url(https://dksindo.com/images/home-banner-mobile.svg); background-size: 600px 320px;background-repeat: no-repeat;">
+	<section class="flex items-center" style="background-image: url(https://dksindo.com/images/home-banner-mobile.svg); background-size: 700px 320px;background-repeat: no-repeat;">
 		<div class="container mx-auto">
 			<div class="grid grid-cols-1">    
 				<div class="col-span-full bg-transparent">            

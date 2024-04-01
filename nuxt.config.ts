@@ -8,7 +8,6 @@ export default defineNuxtConfig({
     // "@": resolve(__dirname, "/")
     assets: "/<rootDir>/assets"
   },
-  ssr: false,
   body: true,
   components: true,
   devtools: { enabled: true },
