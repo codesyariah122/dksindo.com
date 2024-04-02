@@ -7,7 +7,7 @@
         background-position: center;
         color: #fff;
         text-align: center;
-        height: 95vh;
+        height: 75vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -42,7 +42,7 @@
 
 <template>
     <div class="parallax">
-        <h1 class="blur-md invert drop-shadow-xl md:filter-none">Welcome to Phoenix Digital</h1>
+        <h1>Welcome to Phoenix Digital</h1>
         <p >Where Imagination Meets Innovation.</p>
     </div>
 </template>
