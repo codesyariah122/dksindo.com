@@ -22,7 +22,7 @@
 				</ul>
 			</div>
 			<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-			<span class="block text-sm text-white hover:text-gray-400 sm:text-center">🧢 {{year}} <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+			<span class="block text-sm text-white hover:text-gray-400 sm:text-center">🧢 {{year}} <a href="https://flowbite.com/" class="hover:underline">Phoenix Digital™</a>. All Rights Reserved.</span>
 		</div>
 	</footer>
 </template>
