@@ -7,7 +7,7 @@
 			<CCarousel :items-to-show="carouselItemsToShow" :wrap-around="true">
 				<CSlide v-for="slide in products" :key="slide">
 					<div class="bg-white rounded-lg shadow-md">
-						<img :src="`https://dksindo.com/assets/images/portfolio/${slide.img}`" :alt="slide.title" class="w-full h-48 object-cover">
+						<img :src="`/images/portfolio/${slide.img}`" :alt="slide.title" class="w-full h-48 object-cover">
 						<div class="p-6">
 							<h3 class="text-xl font-semibold mb-2">{{slide.title}}</h3>
 							<p>{{slide.desc}}</p>
