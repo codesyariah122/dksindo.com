@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   server: {
     port: 9019
   },
@@ -27,11 +28,14 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/device',
     'vue3-carousel-nuxt',
+    '@vite-pwa/nuxt',
     ['@nuxtjs/google-fonts', {
         families: {
           Poppins: true,
           Montserrat: true,
           Roboto: true,
+          DancingScript: true,
+          Caveat: true,
           Inter: [400, 700],
           'Josefin+Sans': true,
           Lato: [100, 300],
