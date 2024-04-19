@@ -52,7 +52,7 @@
 				name: 'og:description', content: 'kami Phoenix Digital Tech Solution sebagai Konsultan IT, Web Development, dan seputar solusi digital, kami membantu memimpin Anda melalui perjalanan digital, mulai dari perencanaan hingga pelaksanaan. Dengan pengetahuan mendalam tentang teknologi terbaru dan praktik terbaik, kami membawa solusi yang inovatif dan terukur untuk membantu bisnis Anda mencapai tujuan online mereka dengan percaya diri'
 			},
 			{
-				name: 'og:image', content: 'https://i.pinimg.com/736x/6d/c4/a3/6dc4a3d89d4b809acb88f44e47a4ffb9.jpg'
+				name: 'og:image', content: 'https://media.licdn.com/dms/image/D4D12AQGKRn1uT5B2gQ/article-cover_image-shrink_720_1280/0/1685960350831?e=2147483647&v=beta&t=DlDdr2MAustBaDF_JWN9v0EmzT9pLUe8_rmnFouvtHk'
 			}
 			],
 	});
