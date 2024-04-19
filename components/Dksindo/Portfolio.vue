@@ -1,5 +1,5 @@
 <template>
-	<section class="bg-gray-200 py-16 px-6">
+	<section id="portfolio" class="bg-gray-200 py-24 px-6">
 		<div class="max-w-4xl mx-auto">
 			<!-- Portfolio content -->
 			<h2 class="text-3xl font-semibold mb-8 text-center">Portfolio</h2>
@@ -42,6 +42,7 @@
 		data() {
 			return {
 				imagePath: '',
+				carouselItemsToShow: 2.5,
 				products: [
 				{
 					id: 1,
@@ -89,7 +90,7 @@
 				if (window.innerWidth < 768) {
 					this.carouselItemsToShow = 1;
 				} else {
-					this.carouselItemsToShow = 2;
+					this.carouselItemsToShow = 2.5;
 				}
 			},
 		},
@@ -103,24 +104,32 @@
 
 
 <style>
-.carousel__item {
-  background-color: rgb(134, 239, 172);
-  min-height: 200px;
-  width: 100%;
-  font-size: 20px;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+	.carousel__item {
+		background-color: rgb(134, 239, 172);
+		min-height: 200px;
+		width: 100%;
+		font-size: 20px;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-.carousel__slide {
-  padding: 10px;
-}
+	.carousel__slide {
+		padding: 10px;
+	}
 
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
-}
+	.carousel__prev,
+	.carousel__next {
+		box-sizing: content-box;
+		border: 5px solid white;
+		background-color: rgba(0, 0, 0, 1.0);
+		padding: 5px;
+		border-radius: 50%;
+		color: rgba(255,255,255,1);
+	}
+	.carousel__prev:hover,
+	.carousel__next:hover {
+		color: #fdc6ba;
+	}
 </style>

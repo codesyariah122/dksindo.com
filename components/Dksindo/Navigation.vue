@@ -23,10 +23,13 @@
                         <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0" aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Service</a>
+                        <a href="#service" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Service</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Kontak</a>
+                        <a href="#portfolio" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#kontak" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Kontak</a>
                     </li>
                 </ul>
             </div>
@@ -40,12 +43,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:text-gray-500">
+                        <a href="#service" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Service</div>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="block p-3 rounded-lg hover:text-gray-500">
+                        <a href="#portfolio" class="block p-3 rounded-lg hover:text-gray-500">
+                            <div class="font-semibold">Portfolio</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#kontak" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Kontak</div>
                         </a>
                     </li>
@@ -56,16 +64,16 @@
 </template>
 
 <script>
-export default {
-    data() {
-        return {
-            isMenuOpen: false
-        };
-    },
-    methods: {
-        toggleMenu() {
-            this.isMenuOpen = !this.isMenuOpen;
+    export default {
+        data() {
+            return {
+                isMenuOpen: false
+            };
+        },
+        methods: {
+            toggleMenu() {
+                this.isMenuOpen = !this.isMenuOpen;
+            }
         }
-    }
-};
+    };
 </script>

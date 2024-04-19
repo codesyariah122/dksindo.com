@@ -19,10 +19,10 @@
 		<!-- Kontak section -->
 		<Kontak />
 
-		<div v-if="!hideChat" class="fixed bottom-24 right-4">
+		<!-- <div v-if="!hideChat" class="fixed bottom-24 right-4">
 			<ChatButton @toggle-popup="togglePopup" />
 			<ChatPopup :isPopupOpen="isPopupOpen" @close-popup="closePopup"/>
-		</div>
+		</div> -->
 
 		<!-- Footer -->
 		<Footer />

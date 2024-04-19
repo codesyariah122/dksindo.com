@@ -1,0 +1,35 @@
+{
+	"Vio": {
+		"_id": 1,
+		"name": "Mara",
+		"phone": "629675840664",
+		"phoneText": "08296 7584 0664",
+		"alternateName": "Komarasari",
+		"nationality": "Indonesia",
+		"gender": "Female",
+		"jobTitle": "Founder & QA Manager",
+		"src": "/images/teams/vio.jpeg"
+	},
+	"Jilly": {
+		"_id": 2,
+		"name": "Jilly Tijanlina",
+		"alternateName": "Jilly",
+		"phone": "622317795068",
+		"phoneText": "0823 1779 5068",
+		"nationality": "Indonesia",
+		"gender": "Female",
+		"jobTitle": "Founder & Network Engineer",
+		"src": "/images/teams/jilly.jpg"
+	},
+	"Puji": {
+		"_id": 3,
+		"name": "Puji Ermanto",
+		"phone": "6288222668778",
+		"phoneText": "0882 2266 8778",
+		"alternateName": "Puji Ermanto",
+		"nationality": "Indonesia",
+		"gender": "Male",
+		"jobTitle": "Fullstack Developer",
+		"src": "/images/teams/puji.jpg"
+	}
+}

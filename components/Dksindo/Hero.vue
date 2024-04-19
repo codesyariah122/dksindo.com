@@ -17,13 +17,11 @@
     }
 
     .parallax h1 {
-        font-size: 4rem;
         font-family: 'Poppins';
         text-shadow: 2px 2px rgb(244 244 245);
     }
 
     .parallax p {
-        font-size: 3rem;
         font-family: 'Caveat';
         text-shadow: 2px 2px rgb(203 213 225);
     }
@@ -38,12 +36,12 @@
         background: rgba(0, 0, 0, 0.5);
         z-index: -1;
     }
- </style>
+</style>
 
 <template>
     <div class="parallax">
-        <h1>Welcome to Phoenix Digital</h1>
-        <p >Where Imagination Meets Innovation.</p>
+        <h1 class="mt-12 md:mt-0 text-5xl md:text-7xl">Welcome to Phoenix Digital Tech Solusion</h1>
+        <p class="mt-4 md:mt-4 text-3xl md:text-5xl">Where Imagination Meets Innovation.</p>
     </div>
 </template>
 

@@ -1,10 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
-  server: {
-    port: 9019
+  ssr: true,
+  experimental: {
+    payloadExtraction: false
   },
+  router: {
+    options: {
+      strict: false
+    }
+  },
+  
   alias: {
     // "@": resolve(__dirname, "/")
     assets: "/<rootDir>/assets"
@@ -15,42 +21,44 @@ export default defineNuxtConfig({
   head: {
     link: [
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' },
-    ],
+      ],
     script: [
       { src: 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', body: true, defer: true }
-    ]
+      ]
   },
   css: [
     "@/assets/css/main.css",
     '@fortawesome/fontawesome-svg-core/styles.css'
-  ],
+    ],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/device',
     'vue3-carousel-nuxt',
     '@vite-pwa/nuxt',
+    '@nuxt/content',
     ['@nuxtjs/google-fonts', {
-        families: {
-          Poppins: true,
-          Montserrat: true,
-          Roboto: true,
-          DancingScript: true,
-          Caveat: true,
-          Inter: [400, 700],
-          'Josefin+Sans': true,
-          Lato: [100, 300],
-          Raleway: {
-            wght: [100, 400],
-            ital: [100]
-          },
-          Inter: '200..700',
-          'Crimson Pro': {
-            wght: '200..900',
-            ital: '200..700',
-          }
+      families: {
+        Poppins: true,
+        Montserrat: true,
+        Roboto: true,
+        DancingScript: true,
+        Caveat: true,
+        Inter: [400, 700],
+        'Josefin+Sans': true,
+        Lato: [100, 300],
+        Raleway: {
+          wght: [100, 400],
+          ital: [100]
+        },
+        Inter: '200..700',
+        'Crimson Pro': {
+          wght: '200..900',
+          ital: '200..700',
         }
-    }]
-  ],
+      }
+    }],
+    "@nuxt/content"
+    ],
   carousel: {
     prefix: 'C'
   },
@@ -60,9 +68,19 @@ export default defineNuxtConfig({
   },
   buildModules: [
     'nuxt-tailwind-heroicons'
-  ],
-   plugins: [
+    ],
+  plugins: [
     '~/plugins/fontawesome',
     {src: '~/plugins/crisp', mode: 'client', ssr: false}
-  ]
+    ],
+
+  sourcemap: false,
+  content: {
+    documentDriven: true,
+    markdown: {
+      prism: {
+        theme: '/css/prism-dracula.css'
+      }
+    }
+  }
 })

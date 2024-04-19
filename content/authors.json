@@ -1,0 +1,26 @@
+{
+	"Puji Ermanto": {
+		"@context": "http://www.schema.org",
+		"@type": "Person",
+		"@id": "https://pujiermanto-portfolio.vercel.app",
+		"name": "Puji Ermanto",
+		"alternateName": "Puji Ermanto",
+		"nationality": "Indonesia",
+		"gender": "Male",
+		"jobTitle": "Fullstack Developer",
+		"worksFor": [
+			{
+				"@type": "Digital Kreatif Solusindo",
+				"name": "Dksindo (Phoenix Digital Tech Solution)",
+				"sameAs": [
+					"https://dksindo.com/"
+				]
+			}
+		],
+		"url": "https://dksindo.com/",
+		"image": "https://dksindo.com/meta-img.jpg",
+		"sameAs": [
+			"https://dksindo.com/"
+		]
+	}
+}
