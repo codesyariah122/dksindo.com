@@ -18,7 +18,7 @@
 							</div>
 							<div class="relative flex justify-between items-center flex-row px-6 z-50 -mt-10">
 								<p class="flex items-center text-gray-400"><span class="inline-block w-3 h-3 bg-green-500 rounded-full mr-2"></span>online</p>
-								<button class="p-4 bg-emerald-600 rounded-full hover:bg-emerald-500 focus:bg-emerald-700 transition ease-in duration-200 focus:outline-none text-7xl text-white">
+								<button @click="whatsappRedirect(team.phone, team)" class="p-4 bg-emerald-600 rounded-full hover:bg-emerald-500 focus:bg-emerald-700 transition ease-in duration-200 focus:outline-none text-7xl text-white">
 									<font-awesome-icon icon="fa-brands fa-whatsapp " />
 								</button>
 							</div>
@@ -52,4 +52,13 @@
 			required: true
 		},
 	})
+
+	const whatsappRedirect = (num, data) => {
+		const whatsappNumber = num;
+		const whatsappUrl = `https://wa.me/${whatsappNumber}?text=`;
+		const text = `Hello, ${data.name} saya perlu layanan jasa IT Consultant untuk bisnis saya ?? apakah bisa berkonsultasi untuk layanan yang dimiliki dksindo.`;
+		const encodeText = encodeURIComponent(text);
+		window.open(`${whatsappUrl}${encodeText}`)
+	}
+
 </script>
