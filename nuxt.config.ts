@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
+  target: 'static',
   experimental: {
     payloadExtraction: false
   },
@@ -74,13 +75,13 @@ export default defineNuxtConfig({
     {src: '~/plugins/crisp', mode: 'client', ssr: false}
     ],
 
-  sourcemap: false,
-  content: {
-    documentDriven: true,
-    markdown: {
-      prism: {
-        theme: '/css/prism-dracula.css'
-      }
-    }
-  }
+  // sourcemap: false,
+  // content: {
+  //   documentDriven: true,
+  //   markdown: {
+  //     prism: {
+  //       theme: '/css/prism-dracula.css'
+  //     }
+  //   }
+  // }
 })

@@ -1,6 +1,6 @@
  <style>
     .parallax {
-        background-image: url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGlnaXRhbCUyMHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D');
+        background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -40,8 +40,8 @@
 
 <template>
     <div class="parallax">
-        <h1 class="mt-12 md:mt-0 text-5xl md:text-7xl">Welcome to Phoenix Digital Tech Solusion</h1>
-        <p class="mt-4 md:mt-4 text-3xl md:text-5xl">Where Imagination Meets Innovation.</p>
+        <h1 class="mt-12 md:mt-0 text-3xl md:text-7xl md:leading-none leading-relaxed">Welcome to 📢 ... <br> Phoenix Digital Tech Solusion</h1>
+        <p class="mt-4 md:mt-4 text-2xl md:text-5xl">Where Imagination Meets Innovation.</p>
     </div>
 </template>
 

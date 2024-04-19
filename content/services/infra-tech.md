@@ -9,7 +9,7 @@ dateUpdated: ''
 author: 'Puji Ermanto'
 authorUrl: 'https://pujiermanto-portfolio.vercel.app/'
 socialImage:
-src: '/img/blog/mobiledev.jpg'
+src: '/img/blog/infraconsult.jpg'
 heroImage: '/img/blog/hero/techinfra-hero.jpg'
 mime: 'jpg'
 alt: 'mobiledev'
