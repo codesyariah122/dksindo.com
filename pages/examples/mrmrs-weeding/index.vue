@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<client-only>
-			<div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+			<div v-show="loading" id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
 				<div class="spinner-grow text-primary" role="status"></div>
 			</div>
 
@@ -23,8 +23,11 @@
 
 
 <script setup>
+	import {ref, onMounted} from 'vue';
+
 	const date = new Date;
 	const year = date.getFullYear();
+	let loading = ref(true);
 
 	useHead({
 		title: 'Mr & Mrs Weeding Website - Phoenix Digital Tech Solution',
@@ -125,4 +128,10 @@
 		ogImage: 'https://dksindo.com/images/portfolio/weeding-website.png',
 		twitterCard: 'summary_large_image',
 	});
+
+	onMounted(() => {
+		setTimeout(() => {
+			loading = false
+		}, 1000)
+	})
 </script>
