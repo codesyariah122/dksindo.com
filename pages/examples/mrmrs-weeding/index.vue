@@ -19,11 +19,8 @@
 
 
 <script setup>
-	import {ref, onMounted} from 'vue';
-
 	const date = new Date;
 	const year = date.getFullYear();
-	let loading = ref(true);
 
 	useHead({
 		title: 'Mr & Mrs Weeding Website - Phoenix Digital Tech Solution',
@@ -124,10 +121,4 @@
 		ogImage: 'https://dksindo.com/images/portfolio/weeding-website.png',
 		twitterCard: 'summary_large_image',
 	});
-
-	onMounted(() => {
-		setTimeout(() => {
-			loading = false
-		}, 1000)
-	})
 </script>
