@@ -5,7 +5,7 @@
 			<h2 class="text-3xl font-semibold mb-8 text-center">Portfolio</h2>
 			<!-- Portfolio items -->
 			<CCarousel :items-to-show="carouselItemsToShow" :wrap-around="true">
-				<CSlide v-for="slide in products" :key="slide">
+				<CSlide v-for="slide in products.slice().reverse()" :key="slide">
 					<div class="bg-white rounded-lg shadow-md">
 						<img :src="`/images/portfolio/${slide.img}`" :alt="slide.title" class="w-full h-48 object-cover">
 						<div class="p-6">
@@ -71,6 +71,13 @@
 					img: "healthy-diet.png",
 					desc: "Konsulatasi gizi bersama dokter profesional untuk programm diet sehat anda, di lakukan secara offline maupun live dari perangkat mobile anda.",
 					link: "https://draet.dksindo.com"
+				},
+				{
+					id: 4,
+					title: "Seraya Coffee Shop - Start your day with coffee",
+					img: "coffee-shop.png",
+					desc: "Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan.",
+					link: "/examples/seraya-coffee"
 				}
 				]
 			};

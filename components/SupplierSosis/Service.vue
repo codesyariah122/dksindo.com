@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16">
+  <div id="content" class="py-24">
     <div class="container mx-auto text-center">
       <h2 class="text-2xl font-bold mb-8">Our Services</h2>
       <div class="flex flex-wrap justify-center">

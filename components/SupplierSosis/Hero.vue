@@ -7,13 +7,14 @@
  		background-position: center;
  		color: #fff;
  		text-align: center;
- 		height: 70vh;
+ 		height: 95vh;
  		display: flex;
  		align-items: center;
  		justify-content: center;
  		flex-direction: column;
  		position: relative;
  		overflow: hidden;
+ 		margin-top:1rem;
  	}
 
  	.parallax h1 {
@@ -36,39 +37,42 @@
  	}
  </style>
 
-<template>
-	<div class="parallax">
-        <h1>Welcome to Supplier Sosis</h1>
-        <p>Providing the best sausages for your business needs</p>
-    </div>
-</template>
+ <template>
+ 	<div class="parallax">
+ 		<h1>Welcome to Supplier Sosis</h1>
+ 		<p>Providing the best sausages for your business needs</p>
+ 		<a href="#content" class="mt-12 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-5xl">
+ 			<font-awesome-icon icon="fa-solid fa-arrow-down" />
+ 		</a>
+ 	</div>
+ </template>
 
 
-<script>
-	export default {
+ <script>
+ 	export default {
 
-		mounted() {
-			this.playParallax();
-		},
+ 		mounted() {
+ 			this.playParallax();
+ 		},
 
-		methods: {
-			playParallax() {
-				document.addEventListener("DOMContentLoaded", function() {
-					var observer = new IntersectionObserver(function(entries) {
-						entries.forEach(function(entry) {
-							if (entry.isIntersecting) {
-								entry.target.classList.add('animate-fadeIn');
-							}
-						});
-					}, {
-						threshold: 0.5
-					});
+ 		methods: {
+ 			playParallax() {
+ 				document.addEventListener("DOMContentLoaded", function() {
+ 					var observer = new IntersectionObserver(function(entries) {
+ 						entries.forEach(function(entry) {
+ 							if (entry.isIntersecting) {
+ 								entry.target.classList.add('animate-fadeIn');
+ 							}
+ 						});
+ 					}, {
+ 						threshold: 0.5
+ 					});
 
-					document.querySelectorAll('.animate-on-scroll').forEach(function(elem) {
-						observer.observe(elem);
-					});
-				});
-			}
-		}
-	}
-</script>
+ 					document.querySelectorAll('.animate-on-scroll').forEach(function(elem) {
+ 						observer.observe(elem);
+ 					});
+ 				});
+ 			}
+ 		}
+ 	}
+ </script>
