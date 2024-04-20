@@ -11,7 +11,20 @@ export default defineNuxtConfig({
       strict: false
     }
   },
-  
+
+  build: {
+    chunkSizeWarningLimit: 1600,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+        },
+      }
+    },
+  },
+
   alias: {
     // "@": resolve(__dirname, "/")
     assets: "/<rootDir>/assets"

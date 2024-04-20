@@ -48,10 +48,13 @@
 <script setup>
 	const props = defineProps({
 		teams: {
-			type: Array,
-			required: true
+			type: [Array, Object],
+		default: function() {
+			return {}
 		},
-	})
+		required: true
+	},
+})
 
 	const whatsappRedirect = (num, data) => {
 		const whatsappNumber = num;
