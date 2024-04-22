@@ -32,6 +32,11 @@
 		link: [
 		{
 			rel: 'stylesheet',
+			src: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
+			crossorigin: "anonymous"
+		},
+		{
+			rel: 'stylesheet',
 			href: "https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;500;600&family=Petit+Formal+Script&display=swap"
 		},
 		{
@@ -71,9 +76,10 @@
 			crossorigin: 'anonymous'
 		},
 		{
-			src: '/coffee-master/js/vendor/bootstrap.min.js',
-			body: true,
+			src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js',
+			body: true
 		},
+		
 		{
 			src: '/weeding-page/lib/wow/wow.min.js',
 			body: true
@@ -113,12 +119,12 @@
 			],
 	})
 
-	useSeoMeta({
-		title: 'Phoenix Digital Tech Solution',
-		ogTitle: 'Phoenix Digital Tech Solution',
-		description: 'Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan. Dari aroma kopi segar hingga tata letak yang intuitif, kami berusaha menciptakan lingkungan online yang memikat yang memperkuat identitas merek kami sebagai tujuan utama bagi para pecinta kopi.',
-		ogDescription: 'Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan. Dari aroma kopi segar hingga tata letak yang intuitif, kami berusaha menciptakan lingkungan online yang memikat yang memperkuat identitas merek kami sebagai tujuan utama bagi para pecinta kopi.',
-		ogImage: 'https://dksindo.com/images/portfolio/weeding-website.png',
-		twitterCard: 'summary_large_image',
-	});
+useSeoMeta({
+	title: 'Phoenix Digital Tech Solution',
+	ogTitle: 'Phoenix Digital Tech Solution',
+	description: 'Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan. Dari aroma kopi segar hingga tata letak yang intuitif, kami berusaha menciptakan lingkungan online yang memikat yang memperkuat identitas merek kami sebagai tujuan utama bagi para pecinta kopi.',
+	ogDescription: 'Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan. Dari aroma kopi segar hingga tata letak yang intuitif, kami berusaha menciptakan lingkungan online yang memikat yang memperkuat identitas merek kami sebagai tujuan utama bagi para pecinta kopi.',
+	ogImage: 'https://dksindo.com/images/portfolio/weeding-website.png',
+	twitterCard: 'summary_large_image',
+});
 </script>

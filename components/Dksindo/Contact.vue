@@ -1,5 +1,5 @@
 <template>
-	<section id="kontak" class="bg-slate-200 py-24 -mb-4">
+	<section id="kontak" class="bg-white py-24 -mb-4">
 		<div class="container mx-auto shadow-sm rounded px-8 pt-6 pb-8 mb-4">
 			<h2 class="text-3xl font-bold mb-8 text-center">Our Contact</h2>
 			<!-- Product List -->

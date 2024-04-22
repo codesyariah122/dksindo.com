@@ -14,6 +14,7 @@
 		<dksindo-products :data="data"/>
 	</ContentQuery>
 	<dksindo-portfolio />
+	<dksindo-samples />
 	<dksindo-contact :teams="teams"/>
 	<dksindo-footer />
 </div>

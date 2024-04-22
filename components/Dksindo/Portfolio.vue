@@ -79,15 +79,15 @@
 					desc: "Landing page online shop Seraya Coffee House dirancang untuk menghadirkan pengalaman yang menarik dan menawan bagi para pengunjung. Dengan desain yang bersih dan elegan, kami mengundang Anda untuk menjelajahi berbagai jenis kopi dan produk-produk berkualitas tinggi yang kami tawarkan.",
 					link: "/examples/seraya-coffee"
 				},
+				// {
+				// 	id: 5,
+				// 	title: "Mr & Mrs - Weeding Website",
+				// 	img: "weeding-website.png",
+				// 	desc: "Menyentuh hati, mempesona, dan mengabadikan momen indah, landing page kami adalah pintu gerbang ke kisah cinta Anda yang tak terlupakan. Dengan desain yang elegan dan penuh kasih, kami mengundang Anda untuk merayakan cinta sejati Anda dalam sebuah perjalanan visual yang memukau.",
+				// 	link: "/examples/mrmrs-weeding"
+				// },
 				{
 					id: 5,
-					title: "Mr & Mrs - Weeding Website",
-					img: "weeding-website.png",
-					desc: "Menyentuh hati, mempesona, dan mengabadikan momen indah, landing page kami adalah pintu gerbang ke kisah cinta Anda yang tak terlupakan. Dengan desain yang elegan dan penuh kasih, kami mengundang Anda untuk merayakan cinta sejati Anda dalam sebuah perjalanan visual yang memukau.",
-					link: "/examples/mrmrs-weeding"
-				},
-				{
-					id: 6,
 					title: "Saudagar Sosis - Supplier Sosis",
 					img: "supplier-sosis.png",
 					desc: "Selamat datang di dunia rasa yang autentik dan berkualitas tinggi dengan landing page kami untuk supplier sosis terkemuka. Kami adalah titik pertemuan antara keahlian tradisional dan inovasi modern dalam dunia sosis yang lezat. Dengan dedikasi kami untuk kualitas terbaik dan kepuasan pelanggan yang tak tertandingi, kami hadir untuk memenuhi setiap kebutuhan dan keinginan Anda dalam hal produk sosis yang segar dan lezat.",

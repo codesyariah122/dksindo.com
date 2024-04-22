@@ -29,6 +29,9 @@
                         <a href="#portfolio" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Portfolio</a>
                     </li>
                     <li>
+                        <a href="#samples" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Samples</a>
+                    </li>
+                    <li>
                         <a href="#kontak" class="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0">Kontak</a>
                     </li>
                 </ul>
@@ -50,6 +53,11 @@
                     <li>
                         <a href="#portfolio" class="block p-3 rounded-lg hover:text-gray-500">
                             <div class="font-semibold">Portfolio</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#samples" class="block p-3 rounded-lg hover:text-gray-500">
+                            <div class="font-semibold">Samples</div>
                         </a>
                     </li>
                     <li>
