@@ -1,19 +1,21 @@
 <template>
-	<div>
-		<dealfood-hero />
+	<client-only>
+		<div class="container-xxl bg-white p-0">
+			<dealfood-hero />
 
-		<dealfood-recipe />
+			<dealfood-recipe />
 
-		<dealfood-app-section />
+			<dealfood-about />
 
-		<dealfood-about />
+			<dealfood-news />
 
-		<dealfood-news />
+			<dealfood-testimoni />
 
-		<dealfood-testimoni />
+			<dealfood-info />
 
-		<dealfood-footer />
-	</div>
+			<dealfood-footer />
+		</div>
+	</client-only>
 </template>
 
 
@@ -27,12 +29,7 @@
 		link: [
 		{
 			rel: 'stylesheet',
-			src: "/dealfood/css/bootstrap.css",
-			crossorigin: "anonymous"
-		},
-		{
-			rel: 'stylesheet',
-			href: 'https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap'
+			src: "https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap",
 		},
 		{
 			rel: 'stylesheet',
@@ -40,25 +37,20 @@
 		},
 		{
 			rel: 'stylesheet',
-			href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css'
-		},
-		{
-			rel: 'stylesheet',
-			href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'
-		},
-		{
-			rel: 'stylesheet',
-			href: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map'
-		},
-		{
-			rel: 'stylesheet',
-			src: "/dealfood/css/style.css",
+			href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css',
 			crossorigin: "anonymous"
 		},
 		{
 			rel: 'stylesheet',
-			src: "/dealfood/css/responsive.css",
-			crossorigin: "anonymous"
+			href: '/dealfood/css/slick.min.css',
+		},
+		{
+			rel: 'stylesheet',
+			href: '/dealfood/css/style.css'
+		},
+		{
+			rel: 'stylesheet',
+			href: "/dealfood/css/responsive.css",
 		},
 		],
 
@@ -68,16 +60,17 @@
 			body: true
 		},
 		{
-			src: '/dealfoor/js/bootstrap.js',
+			src: '/dealfood/js/bootstrap.js',
 			body: true
 		},
 		{
-			src: 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js',
+			src: '/dealfood/js/slick.js',
 			body: true
 		},
 		{
 			src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js',
-			body: true
+			body: true,
+			crossorigin: "anonymous"
 		},
 		{
 			src: '/dealfood/js/custom.js',

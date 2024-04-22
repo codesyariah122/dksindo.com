@@ -10,7 +10,7 @@
 				<div class="box">
 					<div class="col-md-7 mx-auto">
 						<div class="img-box">
-							<img src="/dealfood/images/about-img.jpg" class="box-img" alt="">
+							<img src="/dealfood/images/about-img.jpg" class="box-img w-36" alt="">
 						</div>
 					</div>
 					<div class="detail-box">

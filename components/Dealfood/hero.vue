@@ -1,5 +1,5 @@
 <template>
-	<div class="hero_area">
+  <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
@@ -24,7 +24,7 @@
             </div>
             <div class="custom_menu-btn">
               <button onclick="openNav()">
-              	<img src="/dealfood/images/menu.png" alt="">
+                <img src="/dealfood/images/menu.png" alt="">
               </button>
             </div>
             <div id="myNav" class="overlay">
@@ -40,7 +40,6 @@
       </div>
     </header>
     <!-- end header section -->
-
     <!-- slider section -->
     <section class="slider_section ">
       <div class="container ">
@@ -86,42 +85,42 @@
       <div class="slider_container">
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img1.png" alt="" />
+            <img src="/dealfood/images/slider-img1.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img2.png" alt="" />
+            <img src="/dealfood/images/slider-img2.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img3.png" alt="" />
+            <img src="/dealfood/images/slider-img3.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img4.png" alt="" />
+            <img src="/dealfood/images/slider-img4.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img1.png" alt="" />
+            <img src="/dealfood/images/slider-img1.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img2.png" alt="" />
+            <img src="/dealfood/images/slider-img2.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img3.png" alt="" />
+            <img src="/dealfood/images/slider-img3.png" alt="" class="w-24"/>
           </div>
         </div>
         <div class="item">
           <div class="img-box">
-            <img src="/dealfood/images/slider-img4.png" alt="" />
+            <img src="/dealfood/images/slider-img4.png" alt="" class="w-24"/>
           </div>
         </div>
       </div>

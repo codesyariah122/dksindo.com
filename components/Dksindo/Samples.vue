@@ -99,7 +99,25 @@
 						{id: 2, src: '/dealfood/dealfood2.png'},
 						{id: 3, src: '/dealfood/dealfood3.png'},
 						{id: 4, src: '/dealfood/dealfood4.png'},
-						{id: 5, src: '/dealfood/dealfood5.png'}
+						{id: 5, src: '/dealfood/dealfood5.png'},
+						{id: 6, src: '/dealfood/dealfood6.png'}
+						]
+				},
+				{
+					id: 4,
+					title: "Foodbar - F&B Website",
+					img: "weeding-website.png",
+					desc: "Website Foodbar ini di tujukan untuk rumah terbaik untuk semua jenis roti dan kue! Kami menyediakan berbagai macam jenis roti dengan rasa dan tekstur terbaik, serta kue-kue tradisional dan modern yang pasti akan membuat hari Anda lebih nikmat. Kualitas dan freshness untuk produk akan selalu dipastikan dengan proses pembuatan yang hati-hati dan bahan-bahan berkualitas tinggi.",
+					link: "/examples/foodbar",
+					items: [
+						{id: 1, src: '/foodbar/foodbar1.png'},
+						{id: 2, src: '/foodbar/foodbar2.png'},
+						{id: 3, src: '/foodbar/foodbar3.png'},
+						{id: 4, src: '/foodbar/foodbar4.png'},
+						{id: 5, src: '/foodbar/foodbar5.png'},
+						{id: 6, src: '/foodbar/foodbar6.png'},
+						{id: 7, src: '/foodbar/foodbar7.png'},
+						{id: 8, src: '/foodbar/foodbar8.png'}
 						]
 				},
 				]
