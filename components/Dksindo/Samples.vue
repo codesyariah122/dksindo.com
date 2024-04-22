@@ -4,9 +4,9 @@
 			<!-- Portfolio content -->
 			<h2 class="text-3xl font-semibold mb-8 text-center">Sample</h2>
 			<!-- Portfolio items -->
-			<div class="grid grid-cols-1 place-content-center md:grid-cols-3 md:gap-6">
-				<div v-for="sample in samples" :key="sample.id">
-					<div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+			<div class="grid grid-cols-1 md:place-content-center md:grid-cols-3 md:gap-60">
+				<div v-for="sample in samples" :key="sample.id" class="place-self-center md:-mb-60 mb-10">
+					<div class="max-w-full w-[400px] md:max-w-lg md:w-[350px] bg-white border border-gray-200 rounded-lg shadow">
 						<span>
 							<CCarousel :items-to-show="carouselItemsToShow" :wrap-around="true">
 								<CSlide v-for="slide in sample.items" :key="slide">
@@ -42,8 +42,8 @@
 				</div>
 			</div>
 
-			<div class="grid grid-cols-1 place-items-center py-6">
-				<div>
+			<div class="grid grid-cols-1 md:place-self-center place-items-center md:py-72 py-6">
+				<div class="col-span-full md:col-span-1">
 					<NuxtLink to="/samples" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full shadow-md flex items-center">
 						View All &nbsp; <font-awesome-icon icon="fa-solid fa-circle-arrow-right fa-2xl" />
 					</NuxtLink>
@@ -120,32 +120,70 @@
 						{id: 8, src: '/foodbar/foodbar8.png'}
 						]
 				},
+				{
+					id: 5,
+					title: "Baker - F&B Website",
+					img: "weeding-website.png",
+					desc: "Website Baker ini di tujukan untuk rumah terbaik untuk semua jenis roti dan kue! Kami menyediakan berbagai macam jenis roti dengan rasa dan tekstur terbaik, serta kue-kue tradisional dan modern yang pasti akan membuat hari Anda lebih nikmat. Kualitas dan freshness untuk produk akan selalu dipastikan dengan proses pembuatan yang hati-hati dan bahan-bahan berkualitas tinggi.",
+					link: "/examples/foodbar",
+					items: [
+						{id: 1, src: '/baker/baker1.png'},
+						{id: 2, src: '/baker/baker2.png'},
+						{id: 3, src: '/baker/baker3.png'},
+						{id: 4, src: '/baker/baker4.png'},
+						{id: 5, src: '/baker/baker5.png'},
+						{id: 6, src: '/baker/baker6.png'},
+						{id: 7, src: '/baker/baker7.png'},
+						{id: 8, src: '/baker/baker8.png'},
+						{id: 9, src: '/baker/baker9.png'}
+						]
+				},
+				{
+					id: 5,
+					title: "Swangky - Life Style Online Shoping",
+					img: "weeding-website.png",
+					desc: "Website Swangky ini platform daring yang menawarkan berbagai produk dan layanan terkait gaya hidup, yang mencakup busana, aksesoris, produk kecantikan, perawatan diri, peralatan rumah tangga, dekorasi, dan banyak lagi. Tujuan utama dari situs ini adalah untuk menyediakan pengalaman belanja yang mudah, nyaman, dan menarik bagi konsumen yang mencari tren terbaru dan produk berkualitas tinggi.",
+					link: "/examples/foodbar",
+					items: [
+						{id: 1, src: '/swangky/swangky1.png'},
+						{id: 2, src: '/swangky/swangky2.png'},
+						{id: 3, src: '/swangky/swangky3.png'},
+						{id: 4, src: '/swangky/swangky4.png'},
+						{id: 5, src: '/swangky/swangky5.png'},
+						{id: 6, src: '/swangky/swangky6.png'},
+						{id: 7, src: '/swangky/swangky7.png'},
+						{id: 8, src: '/swangky/swangky8.png'},
+						{id: 9, src: '/swangky/swangky9.png'},
+						{id: 10, src: '/swangky/swangky10.png'},
+						{id: 11, src: '/swangky/swangky11.png'}
+						]
+				},
 				]
-			};
-		},
-		mounted() {
-			this.updateCarouselItemsToShow(); 
-			window.addEventListener('resize', this.updateCarouselItemsToShow);
-		},
-		methods: {
-			prev() {
-				this.$emit('prev');
-			},
-			next() {
-				this.$emit('next');
-			},
-			updateCarouselItemsToShow() {
-				if (window.innerWidth < 768) {
-					this.carouselItemsToShow = 1;
-				} else {
-					this.carouselItemsToShow = 2.5;
-				}
-			},
-		},
-		beforeUnmount() {
-			window.removeEventListener('resize', this.updateCarouselItemsToShow);
-		},
-	}
+};
+},
+mounted() {
+	this.updateCarouselItemsToShow(); 
+	window.addEventListener('resize', this.updateCarouselItemsToShow);
+},
+methods: {
+	prev() {
+		this.$emit('prev');
+	},
+	next() {
+		this.$emit('next');
+	},
+	updateCarouselItemsToShow() {
+		if (window.innerWidth < 768) {
+			this.carouselItemsToShow = 1;
+		} else {
+			this.carouselItemsToShow = 2.5;
+		}
+	},
+},
+beforeUnmount() {
+	window.removeEventListener('resize', this.updateCarouselItemsToShow);
+},
+}
 </script>
 
 
