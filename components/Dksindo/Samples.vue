@@ -6,7 +6,7 @@
 			<!-- Portfolio items -->
 			<div class="grid grid-cols-1 md:place-content-center md:grid-cols-3 md:gap-60">
 				<div v-for="sample in samples" :key="sample.id" class="place-self-center md:-mb-60 mb-10">
-					<div class="max-w-full w-[400px] md:max-w-lg md:w-[350px] bg-white border border-gray-200 rounded-lg shadow">
+					<div class="max-w-full w-[300px] md:max-w-lg md:w-[350px] bg-white border border-gray-200 rounded-lg shadow">
 						<span>
 							<CCarousel :items-to-show="carouselItemsToShow" :wrap-around="true">
 								<CSlide v-for="slide in sample.items" :key="slide">
