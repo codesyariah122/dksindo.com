@@ -161,13 +161,13 @@ export default defineNuxtConfig({
     {src: '~/plugins/crisp', mode: 'client', ssr: false}
     ],
 
-  sourcemap: false,
-  content: {
-    documentDriven: true,
-    markdown: {
-      prism: {
-        theme: '/css/prism-dracula.css'
-      }
-    }
-  }
+  // sourcemap: false,
+  // content: {
+  //   documentDriven: true,
+  //   markdown: {
+  //     prism: {
+  //       theme: '/css/prism-dracula.css'
+  //     }
+  //   }
+  // }
 })
