@@ -158,6 +158,25 @@
 						{id: 11, src: '/swangky/swangky11.png'}
 						]
 				},
+				{
+					id: 5,
+					title: "Fruitables - Official Store Agricultural Fruit",
+					img: "weeding-website.png",
+					desc: "FruitAble adalah sebuah website yang berfokus pada pertanian buah-buahan berkualitas tinggi. Melalui platform ini, pengunjung dapat menjelajahi berbagai jenis buah-buahan segar yang ditanam secara berkelanjutan dan ramah lingkungan.",
+					link: "/examples/fruitables",
+					items: [
+						{id: 1, src: '/fruitable/fruitable1.png'},
+						{id: 2, src: '/fruitable/fruitable2.png'},
+						{id: 3, src: '/fruitable/fruitable3.png'},
+						{id: 4, src: '/fruitable/fruitable4.png'},
+						{id: 5, src: '/fruitable/fruitable5.png'},
+						{id: 6, src: '/fruitable/fruitable6.png'},
+						{id: 7, src: '/fruitable/fruitable7.png'},
+						{id: 8, src: '/fruitable/fruitable8.png'},
+						{id: 9, src: '/fruitable/fruitable9.png'},
+						{id: 10, src: '/fruitable/fruitable10.png'}
+						]
+				},
 				]
 };
 },
