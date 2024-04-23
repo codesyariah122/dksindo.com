@@ -177,6 +177,22 @@
 						{id: 10, src: '/fruitable/fruitable10.png'}
 						]
 				},
+				{
+					id: 6,
+					title: "Milina - Official Store",
+					img: "weeding-website.png",
+					desc: "Milina Official Store adalah toko online yang menyediakan produk kecantikan dan gaya wanita. Temukan skincare, makeup, fashion, dan aksesori berkualitas tinggi untuk menyempurnakan penampilan Anda. Dengan pelayanan yang ramah dan pengiriman cepat, Milina menjadi pilihan tepat bagi wanita yang ingin tampil cantik setiap hari.",
+					link: "/examples/milina",
+					items: [
+						{id: 1, src: '/milina/milina1.png'},
+						{id: 2, src: '/milina/milina2.png'},
+						{id: 3, src: '/milina/milina3.png'},
+						{id: 4, src: '/milina/milina4.png'},
+						{id: 5, src: '/milina/milina5.png'},
+						{id: 6, src: '/milina/milina6.png'},
+						{id: 7, src: '/milina/milina7.png'}
+						]
+				},
 				]
 };
 },
